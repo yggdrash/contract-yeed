@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: YEED
+Bundle-Description: Yggdrash YEED Contract
+Bundle-Vendor: YGGDRASH
+Bundle-SymbolicName: io.yggdrash.contract.yeed.YeedContract
+Bundle-Version: 0.8.0
+Bundle-Activator: io.yggdrash.contract.yeed.YeedContract
+Import-Package: io.yggdrash.common.contract,io.yggdrash.common.contract.
+ method,io.yggdrash.common.contract.standard,io.yggdrash.common.rlp,com.
+ google.common.base,com.google.common.primitives,io.yggdrash.common.cont
+ ract.vo,io.yggdrash.common.contract.vo.dpoa,io.yggdrash.common.contract
+ .vo.dpoa.tx,io.yggdrash.common.crypto,io.yggdrash.common.crypto.jce,io.
+ yggdrash.common.exception,io.yggdrash.common.store,io.yggdrash.common.s
+ tore.datasource,io.yggdrash.common.utils,org.osgi.framework,org.osgi.ut
+ il.tracker,com.google.gson,org.w3c.dom,org.slf4j,java.math,io.yggdrash.
+ contract.core,io.yggdrash.contract.core.annotation,io.yggdrash.contract
+ .core.store,io.yggdrash.contract.core.channel
+

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.yggdrash.contract.yeed.YeedContractTest" tests="17" skipped="0" failures="0" errors="0" timestamp="2019-11-06T03:38:18" hostname="Peter-Mac.local" time="0.023">
+  <properties/>
+  <testcase name="transferFrom" classname="io.yggdrash.contract.yeed.YeedContractTest" time="0.003"/>
+  <testcase name="transferFeeChannelTest" classname="io.yggdrash.contract.yeed.YeedContractTest" time="0.0"/>
+  <testcase name="transferChannelTest" classname="io.yggdrash.contract.yeed.YeedContractTest" time="0.0"/>
+  <testcase name="transferFromToSelfAccount" classname="io.yggdrash.contract.yeed.YeedContractTest" time="0.001"/>
+  <testcase name="transferToSelfAccount" classname="io.yggdrash.contract.yeed.YeedContractTest" time="0.001"/>
+  <testcase name="paramCheckOfTransfer" classname="io.yggdrash.contract.yeed.YeedContractTest" time="0.003"/>
+  <testcase name="totalSupply" classname="io.yggdrash.contract.yeed.YeedContractTest" time="0.0"/>
+  <testcase name="queryTransactionConfirm" classname="io.yggdrash.contract.yeed.YeedContractTest" time="0.001"/>
+  <testcase name="allowance" classname="io.yggdrash.contract.yeed.YeedContractTest" time="0.001"/>
+  <testcase name="balanceOf" classname="io.yggdrash.contract.yeed.YeedContractTest" time="0.001"/>
+  <testcase name="endblockBurnTest" classname="io.yggdrash.contract.yeed.YeedContractTest" time="0.001"/>
+  <testcase name="paramCheckOfApprove" classname="io.yggdrash.contract.yeed.YeedContractTest" time="0.001"/>
+  <testcase name="paramCheckOfTransferFrom" classname="io.yggdrash.contract.yeed.YeedContractTest" time="0.001"/>
+  <testcase name="getContractBalanceOf" classname="io.yggdrash.contract.yeed.YeedContractTest" time="0.001"/>
+  <testcase name="queryPropose" classname="io.yggdrash.contract.yeed.YeedContractTest" time="0.001"/>
+  <testcase name="transfer" classname="io.yggdrash.contract.yeed.YeedContractTest" time="0.002"/>
+  <testcase name="approveToSelfAccount" classname="io.yggdrash.contract.yeed.YeedContractTest" time="0.001"/>
+  <system-out><![CDATA[12:38:18.327 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : c91e9d46dd4b7584f0b6348ee18277c10fd7cb94Balance of Frontier : 1000000000000000000000000000
+12:38:18.327 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : 1a0cdead3d1d1dbeef848fef9053b4f0ae06db9eBalance of Frontier : 1000000000000000000000000000
+12:38:18.327 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : 5e032243d507c743b061ef021e2ec7fcc6d3ab89Balance of Frontier : 10000000000000000000
+12:38:18.327 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : cee3d4755e47055b530deeba062c5bd0c17eb00fBalance of Frontier : 998000000000000000000000000000
+12:38:18.327 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : c3cf7a283a4415ce3c41f5374934612389334780Balance of Frontier : 10000000000000000000000000000000000000000
+12:38:18.327 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : 4d01e237570022440aa126ca0b63065d7f5fd589Balance of Frontier : 10000000000000000000000000000000000000000
+12:38:18.328 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - [Approved] Approve 1a0cdead3d1d1dbeef848fef9053b4f0ae06db9e to 1000000000000000000000 from c91e9d46dd4b7584f0b6348ee18277c10fd7cb94. ApproveKey : ap-345499746899f15bb13af87a76938b66cd765f25c1af95fd35432f889377c064
+12:38:18.328 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContractTest - Transfer 0 from c91e9d46dd4b7584f0b6348ee18277c10fd7cb94 to c91e9d46dd4b7584f0b6348ee18277c10fd7cb94 fee 10000000000000000
+12:38:18.328 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContractTest - Transfer fee c91e9d46dd4b7584f0b6348ee18277c10fd7cb94 from 10000000000000000 success
+12:38:18.328 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContractTest - Approve 1a0cdead3d1d1dbeef848fef9053b4f0ae06db9e to 1000000000000000000000 from c91e9d46dd4b7584f0b6348ee18277c10fd7cb94
+12:38:18.329 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - [Transferred] Transfer 700000000000000000000 from c91e9d46dd4b7584f0b6348ee18277c10fd7cb94 to cee3d4755e47055b530deeba062c5bd0c17eb00f
+12:38:18.329 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Allowed amount of Sender (1a0cdead3d1d1dbeef848fef9053b4f0ae06db9e) : 299990000000000000000
+12:38:18.329 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Balance of From (c91e9d46dd4b7584f0b6348ee18277c10fd7cb94) : 999999299980000000000000000 Balance of To   (cee3d4755e47055b530deeba062c5bd0c17eb00f) : 700000000000000000000
+12:38:18.329 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContractTest - cee3d4755e47055b530deeba062c5bd0c17eb00f : 998000000700000000000000000000
+12:38:18.329 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContractTest - c91e9d46dd4b7584f0b6348ee18277c10fd7cb94 : 999999299980000000000000000
+12:38:18.329 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContractTest - 1a0cdead3d1d1dbeef848fef9053b4f0ae06db9e : 1000000000000000000000000000
+12:38:18.329 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContractTest - getAllowance : 299990000000000000000
+12:38:18.329 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContractTest - txLog=[Transfer 700000000000000000000 from c91e9d46dd4b7584f0b6348ee18277c10fd7cb94 to cee3d4755e47055b530deeba062c5bd0c17eb00f fee 10000000000000000, TransferFrom 700000000000000000000 from c91e9d46dd4b7584f0b6348ee18277c10fd7cb94 to cee3d4755e47055b530deeba062c5bd0c17eb00f fee 10000000000000000 by 1a0cdead3d1d1dbeef848fef9053b4f0ae06db9e]
+12:38:18.329 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Insufficient funds
+12:38:18.329 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - [Transferred] Transfer 299980000000000000000 from c91e9d46dd4b7584f0b6348ee18277c10fd7cb94 to cee3d4755e47055b530deeba062c5bd0c17eb00f
+12:38:18.329 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Allowed amount of Sender (1a0cdead3d1d1dbeef848fef9053b4f0ae06db9e) : 0
+12:38:18.329 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Balance of From (c91e9d46dd4b7584f0b6348ee18277c10fd7cb94) : 999998999990000000000000000 Balance of To   (cee3d4755e47055b530deeba062c5bd0c17eb00f) : 299980000000000000000
+12:38:18.329 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContractTest - txLog=[Insufficient funds, Transfer 299980000000000000000 from c91e9d46dd4b7584f0b6348ee18277c10fd7cb94 to cee3d4755e47055b530deeba062c5bd0c17eb00f fee 10000000000000000, TransferFrom 299980000000000000000 from c91e9d46dd4b7584f0b6348ee18277c10fd7cb94 to cee3d4755e47055b530deeba062c5bd0c17eb00f fee 10000000000000000 by 1a0cdead3d1d1dbeef848fef9053b4f0ae06db9e]
+12:38:18.330 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : c91e9d46dd4b7584f0b6348ee18277c10fd7cb94Balance of Frontier : 1000000000000000000000000000
+12:38:18.330 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : 1a0cdead3d1d1dbeef848fef9053b4f0ae06db9eBalance of Frontier : 1000000000000000000000000000
+12:38:18.331 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : 5e032243d507c743b061ef021e2ec7fcc6d3ab89Balance of Frontier : 10000000000000000000
+12:38:18.331 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : cee3d4755e47055b530deeba062c5bd0c17eb00fBalance of Frontier : 998000000000000000000000000000
+12:38:18.331 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : c3cf7a283a4415ce3c41f5374934612389334780Balance of Frontier : 10000000000000000000000000000000000000000
+12:38:18.331 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : 4d01e237570022440aa126ca0b63065d7f5fd589Balance of Frontier : 10000000000000000000000000000000000000000
+12:38:18.331 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContractTest - 1000000000000000000000
+12:38:18.331 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContractTest - 999990000000000000000
+12:38:18.331 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContractTest - txLog=[Transfer 1000000000000000000000 from c91e9d46dd4b7584f0b6348ee18277c10fd7cb94 to CONTRACT_ACCOUNTTEST fee 10000000000000000, Transfer 0 from CONTRACT_ACCOUNTTEST to CONTRACT_ACCOUNTTEST fee 10000000000000000, Transfer fee CONTRACT_ACCOUNTTEST from 10000000000000000 success]
+12:38:18.331 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : c91e9d46dd4b7584f0b6348ee18277c10fd7cb94Balance of Frontier : 1000000000000000000000000000
+12:38:18.331 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : 1a0cdead3d1d1dbeef848fef9053b4f0ae06db9eBalance of Frontier : 1000000000000000000000000000
+12:38:18.331 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : 5e032243d507c743b061ef021e2ec7fcc6d3ab89Balance of Frontier : 10000000000000000000
+12:38:18.331 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : cee3d4755e47055b530deeba062c5bd0c17eb00fBalance of Frontier : 998000000000000000000000000000
+12:38:18.331 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : c3cf7a283a4415ce3c41f5374934612389334780Balance of Frontier : 10000000000000000000000000000000000000000
+12:38:18.332 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : 4d01e237570022440aa126ca0b63065d7f5fd589Balance of Frontier : 10000000000000000000000000000000000000000
+12:38:18.332 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContractTest - {"from":"TEST","to":"c91e9d46dd4b7584f0b6348ee18277c10fd7cb94","amount":999990000000000000000,"serviceFee":10000000000000000}
+12:38:18.332 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContractTest - txLog=[Transfer 1000000000000000000000 from c91e9d46dd4b7584f0b6348ee18277c10fd7cb94 to CONTRACT_ACCOUNTTEST fee 10000000000000000, Transfer 999990000000000000000 from CONTRACT_ACCOUNTTEST to c91e9d46dd4b7584f0b6348ee18277c10fd7cb94 fee 10000000000000000]
+12:38:18.332 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : c91e9d46dd4b7584f0b6348ee18277c10fd7cb94Balance of Frontier : 1000000000000000000000000000
+12:38:18.332 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : 1a0cdead3d1d1dbeef848fef9053b4f0ae06db9eBalance of Frontier : 1000000000000000000000000000
+12:38:18.332 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : 5e032243d507c743b061ef021e2ec7fcc6d3ab89Balance of Frontier : 10000000000000000000
+12:38:18.332 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : cee3d4755e47055b530deeba062c5bd0c17eb00fBalance of Frontier : 998000000000000000000000000000
+12:38:18.332 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : c3cf7a283a4415ce3c41f5374934612389334780Balance of Frontier : 10000000000000000000000000000000000000000
+12:38:18.332 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : 4d01e237570022440aa126ca0b63065d7f5fd589Balance of Frontier : 10000000000000000000000000000000000000000
+12:38:18.333 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - [Approved] Approve c91e9d46dd4b7584f0b6348ee18277c10fd7cb94 to 10000000000010000 from c91e9d46dd4b7584f0b6348ee18277c10fd7cb94. ApproveKey : ap-88c4f2f0542c5e7f9bf2158bc3c0ffe19a344d0dccee4866518f23336600df61
+12:38:18.333 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - [Transferred] Transfer 100 from c91e9d46dd4b7584f0b6348ee18277c10fd7cb94 to c91e9d46dd4b7584f0b6348ee18277c10fd7cb94
+12:38:18.333 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Allowed amount of Sender (c91e9d46dd4b7584f0b6348ee18277c10fd7cb94) : 9900
+12:38:18.333 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Balance of From (c91e9d46dd4b7584f0b6348ee18277c10fd7cb94) : 999999999980000000000000000 Balance of To   (c91e9d46dd4b7584f0b6348ee18277c10fd7cb94) : 100
+12:38:18.333 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContractTest - txLog=[Transfer 0 from c91e9d46dd4b7584f0b6348ee18277c10fd7cb94 to c91e9d46dd4b7584f0b6348ee18277c10fd7cb94 fee 10000000000000000, Transfer fee c91e9d46dd4b7584f0b6348ee18277c10fd7cb94 from 10000000000000000 success, Approve c91e9d46dd4b7584f0b6348ee18277c10fd7cb94 to 10000000000010000 from c91e9d46dd4b7584f0b6348ee18277c10fd7cb94, Transfer 100 from c91e9d46dd4b7584f0b6348ee18277c10fd7cb94 to c91e9d46dd4b7584f0b6348ee18277c10fd7cb94 fee 10000000000000000, TransferFrom 100 from c91e9d46dd4b7584f0b6348ee18277c10fd7cb94 to c91e9d46dd4b7584f0b6348ee18277c10fd7cb94 fee 10000000000000000 by c91e9d46dd4b7584f0b6348ee18277c10fd7cb94]
+12:38:18.333 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : c91e9d46dd4b7584f0b6348ee18277c10fd7cb94Balance of Frontier : 1000000000000000000000000000
+12:38:18.333 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : 1a0cdead3d1d1dbeef848fef9053b4f0ae06db9eBalance of Frontier : 1000000000000000000000000000
+12:38:18.333 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : 5e032243d507c743b061ef021e2ec7fcc6d3ab89Balance of Frontier : 10000000000000000000
+12:38:18.333 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : cee3d4755e47055b530deeba062c5bd0c17eb00fBalance of Frontier : 998000000000000000000000000000
+12:38:18.333 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : c3cf7a283a4415ce3c41f5374934612389334780Balance of Frontier : 10000000000000000000000000000000000000000
+12:38:18.333 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : 4d01e237570022440aa126ca0b63065d7f5fd589Balance of Frontier : 10000000000000000000000000000000000000000
+12:38:18.334 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - [Transferred] Transfer 1000000000000000000 from c91e9d46dd4b7584f0b6348ee18277c10fd7cb94 to c91e9d46dd4b7584f0b6348ee18277c10fd7cb94
+12:38:18.334 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContractTest - txLog=[Transfer 1000000000000000000 from c91e9d46dd4b7584f0b6348ee18277c10fd7cb94 to c91e9d46dd4b7584f0b6348ee18277c10fd7cb94 fee 10000000000000000]
+12:38:18.334 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : c91e9d46dd4b7584f0b6348ee18277c10fd7cb94Balance of Frontier : 1000000000000000000000000000
+12:38:18.334 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : 1a0cdead3d1d1dbeef848fef9053b4f0ae06db9eBalance of Frontier : 1000000000000000000000000000
+12:38:18.334 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : 5e032243d507c743b061ef021e2ec7fcc6d3ab89Balance of Frontier : 10000000000000000000
+12:38:18.334 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : cee3d4755e47055b530deeba062c5bd0c17eb00fBalance of Frontier : 998000000000000000000000000000
+12:38:18.334 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : c3cf7a283a4415ce3c41f5374934612389334780Balance of Frontier : 10000000000000000000000000000000000000000
+12:38:18.334 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : 4d01e237570022440aa126ca0b63065d7f5fd589Balance of Frontier : 10000000000000000000000000000000000000000
+12:38:18.334 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Invalid parameters : null
+12:38:18.336 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Invalid parameters : null
+12:38:18.336 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Invalid parameters : Illegal embedded sign character
+12:38:18.336 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Invalid parameters : For input string: "amount!"
+12:38:18.336 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Invalid amount
+12:38:18.336 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Invalid amount
+12:38:18.336 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Invalid amount
+12:38:18.336 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - [Transferred] Transfer 100 from c91e9d46dd4b7584f0b6348ee18277c10fd7cb94 to to
+12:38:18.337 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Low transaction fee
+12:38:18.337 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Low transaction fee
+12:38:18.337 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - [Transferred] Transfer 100 from c91e9d46dd4b7584f0b6348ee18277c10fd7cb94 to to
+12:38:18.337 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Invalid parameters : JsonNull
+12:38:18.337 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContractTest - txLog=[Invalid parameters, Invalid parameters, Invalid parameters, Invalid parameters, Invalid amount, Invalid amount, Invalid amount, Transfer 100 from c91e9d46dd4b7584f0b6348ee18277c10fd7cb94 to to fee 10000000000000000, Low transaction fee, Low transaction fee, Transfer 100 from c91e9d46dd4b7584f0b6348ee18277c10fd7cb94 to to fee 10000000000000000, Invalid parameters]
+12:38:18.337 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : c91e9d46dd4b7584f0b6348ee18277c10fd7cb94Balance of Frontier : 1000000000000000000000000000
+12:38:18.337 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : 1a0cdead3d1d1dbeef848fef9053b4f0ae06db9eBalance of Frontier : 1000000000000000000000000000
+12:38:18.337 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : 5e032243d507c743b061ef021e2ec7fcc6d3ab89Balance of Frontier : 10000000000000000000
+12:38:18.337 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : cee3d4755e47055b530deeba062c5bd0c17eb00fBalance of Frontier : 998000000000000000000000000000
+12:38:18.338 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : c3cf7a283a4415ce3c41f5374934612389334780Balance of Frontier : 10000000000000000000000000000000000000000
+12:38:18.338 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : 4d01e237570022440aa126ca0b63065d7f5fd589Balance of Frontier : 10000000000000000000000000000000000000000
+12:38:18.338 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContractTest - txLog=[{"to":"c91e9d46dd4b7584f0b6348ee18277c10fd7cb94","balance":"1000000000000000000000000000"}, {"to":"1a0cdead3d1d1dbeef848fef9053b4f0ae06db9e","balance":"1000000000000000000000000000"}, {"to":"5e032243d507c743b061ef021e2ec7fcc6d3ab89","balance":"10000000000000000000"}, {"to":"cee3d4755e47055b530deeba062c5bd0c17eb00f","balance":"998000000000000000000000000000"}, {"to":"c3cf7a283a4415ce3c41f5374934612389334780","balance":"10000000000000000000000000000000000000000"}, {"to":"4d01e237570022440aa126ca0b63065d7f5fd589","balance":"10000000000000000000000000000000000000000"}, Initialization completed successfully. Total Supply is 20000000001000000000010000000000000000000]
+12:38:18.338 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : c91e9d46dd4b7584f0b6348ee18277c10fd7cb94Balance of Frontier : 1000000000000000000000000000
+12:38:18.338 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : 1a0cdead3d1d1dbeef848fef9053b4f0ae06db9eBalance of Frontier : 1000000000000000000000000000
+12:38:18.338 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : 5e032243d507c743b061ef021e2ec7fcc6d3ab89Balance of Frontier : 10000000000000000000
+12:38:18.338 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : cee3d4755e47055b530deeba062c5bd0c17eb00fBalance of Frontier : 998000000000000000000000000000
+12:38:18.338 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : c3cf7a283a4415ce3c41f5374934612389334780Balance of Frontier : 10000000000000000000000000000000000000000
+12:38:18.339 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : 4d01e237570022440aa126ca0b63065d7f5fd589Balance of Frontier : 10000000000000000000000000000000000000000
+12:38:18.339 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContractTest - txLog=[{"to":"c91e9d46dd4b7584f0b6348ee18277c10fd7cb94","balance":"1000000000000000000000000000"}, {"to":"1a0cdead3d1d1dbeef848fef9053b4f0ae06db9e","balance":"1000000000000000000000000000"}, {"to":"5e032243d507c743b061ef021e2ec7fcc6d3ab89","balance":"10000000000000000000"}, {"to":"cee3d4755e47055b530deeba062c5bd0c17eb00f","balance":"998000000000000000000000000000"}, {"to":"c3cf7a283a4415ce3c41f5374934612389334780","balance":"10000000000000000000000000000000000000000"}, {"to":"4d01e237570022440aa126ca0b63065d7f5fd589","balance":"10000000000000000000000000000000000000000"}, Initialization completed successfully. Total Supply is 20000000001000000000010000000000000000000]
+12:38:18.339 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : c91e9d46dd4b7584f0b6348ee18277c10fd7cb94Balance of Frontier : 1000000000000000000000000000
+12:38:18.339 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : 1a0cdead3d1d1dbeef848fef9053b4f0ae06db9eBalance of Frontier : 1000000000000000000000000000
+12:38:18.339 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : 5e032243d507c743b061ef021e2ec7fcc6d3ab89Balance of Frontier : 10000000000000000000
+12:38:18.339 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : cee3d4755e47055b530deeba062c5bd0c17eb00fBalance of Frontier : 998000000000000000000000000000
+12:38:18.339 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : c3cf7a283a4415ce3c41f5374934612389334780Balance of Frontier : 10000000000000000000000000000000000000000
+12:38:18.339 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : 4d01e237570022440aa126ca0b63065d7f5fd589Balance of Frontier : 10000000000000000000000000000000000000000
+12:38:18.340 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContractTest - txLog=[{"to":"c91e9d46dd4b7584f0b6348ee18277c10fd7cb94","balance":"1000000000000000000000000000"}, {"to":"1a0cdead3d1d1dbeef848fef9053b4f0ae06db9e","balance":"1000000000000000000000000000"}, {"to":"5e032243d507c743b061ef021e2ec7fcc6d3ab89","balance":"10000000000000000000"}, {"to":"cee3d4755e47055b530deeba062c5bd0c17eb00f","balance":"998000000000000000000000000000"}, {"to":"c3cf7a283a4415ce3c41f5374934612389334780","balance":"10000000000000000000000000000000000000000"}, {"to":"4d01e237570022440aa126ca0b63065d7f5fd589","balance":"10000000000000000000000000000000000000000"}, Initialization completed successfully. Total Supply is 20000000001000000000010000000000000000000]
+12:38:18.340 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : c91e9d46dd4b7584f0b6348ee18277c10fd7cb94Balance of Frontier : 1000000000000000000000000000
+12:38:18.340 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : 1a0cdead3d1d1dbeef848fef9053b4f0ae06db9eBalance of Frontier : 1000000000000000000000000000
+12:38:18.340 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : 5e032243d507c743b061ef021e2ec7fcc6d3ab89Balance of Frontier : 10000000000000000000
+12:38:18.340 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : cee3d4755e47055b530deeba062c5bd0c17eb00fBalance of Frontier : 998000000000000000000000000000
+12:38:18.340 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : c3cf7a283a4415ce3c41f5374934612389334780Balance of Frontier : 10000000000000000000000000000000000000000
+12:38:18.340 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : 4d01e237570022440aa126ca0b63065d7f5fd589Balance of Frontier : 10000000000000000000000000000000000000000
+12:38:18.341 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContractTest - txLog=[{"to":"c91e9d46dd4b7584f0b6348ee18277c10fd7cb94","balance":"1000000000000000000000000000"}, {"to":"1a0cdead3d1d1dbeef848fef9053b4f0ae06db9e","balance":"1000000000000000000000000000"}, {"to":"5e032243d507c743b061ef021e2ec7fcc6d3ab89","balance":"10000000000000000000"}, {"to":"cee3d4755e47055b530deeba062c5bd0c17eb00f","balance":"998000000000000000000000000000"}, {"to":"c3cf7a283a4415ce3c41f5374934612389334780","balance":"10000000000000000000000000000000000000000"}, {"to":"4d01e237570022440aa126ca0b63065d7f5fd589","balance":"10000000000000000000000000000000000000000"}, Initialization completed successfully. Total Supply is 20000000001000000000010000000000000000000]
+12:38:18.341 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : c91e9d46dd4b7584f0b6348ee18277c10fd7cb94Balance of Frontier : 1000000000000000000000000000
+12:38:18.341 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : 1a0cdead3d1d1dbeef848fef9053b4f0ae06db9eBalance of Frontier : 1000000000000000000000000000
+12:38:18.341 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : 5e032243d507c743b061ef021e2ec7fcc6d3ab89Balance of Frontier : 10000000000000000000
+12:38:18.341 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : cee3d4755e47055b530deeba062c5bd0c17eb00fBalance of Frontier : 998000000000000000000000000000
+12:38:18.341 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : c3cf7a283a4415ce3c41f5374934612389334780Balance of Frontier : 10000000000000000000000000000000000000000
+12:38:18.341 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : 4d01e237570022440aa126ca0b63065d7f5fd589Balance of Frontier : 10000000000000000000000000000000000000000
+12:38:18.341 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - [Transferred] Transfer 1000000000000000000 from c91e9d46dd4b7584f0b6348ee18277c10fd7cb94 to 1a0cdead3d1d1dbeef848fef9053b4f0ae06db9e
+12:38:18.341 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContractTest - txLog=[Burn 1000000000000000000 Yeed]
+12:38:18.342 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : c91e9d46dd4b7584f0b6348ee18277c10fd7cb94Balance of Frontier : 1000000000000000000000000000
+12:38:18.342 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : 1a0cdead3d1d1dbeef848fef9053b4f0ae06db9eBalance of Frontier : 1000000000000000000000000000
+12:38:18.342 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : 5e032243d507c743b061ef021e2ec7fcc6d3ab89Balance of Frontier : 10000000000000000000
+12:38:18.342 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : cee3d4755e47055b530deeba062c5bd0c17eb00fBalance of Frontier : 998000000000000000000000000000
+12:38:18.342 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : c3cf7a283a4415ce3c41f5374934612389334780Balance of Frontier : 10000000000000000000000000000000000000000
+12:38:18.342 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : 4d01e237570022440aa126ca0b63065d7f5fd589Balance of Frontier : 10000000000000000000000000000000000000000
+12:38:18.342 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Invalid parameters : null
+12:38:18.342 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Invalid parameters : null
+12:38:18.342 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Invalid parameters : Illegal embedded sign character
+12:38:18.342 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Invalid amount
+12:38:18.342 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Invalid amount
+12:38:18.343 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Invalid parameters : For input string: "amount!"
+12:38:18.343 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - [Approved] Approve spender to 100 from c91e9d46dd4b7584f0b6348ee18277c10fd7cb94. ApproveKey : ap-89a3a95c25567ec56ed873fa9d447b58bbf748efdbcf92e5d1d63540a9b0bc44
+12:38:18.343 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Low transaction fee
+12:38:18.343 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Low transaction fee
+12:38:18.343 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - [Approved] Approve spender to 100 from c91e9d46dd4b7584f0b6348ee18277c10fd7cb94. ApproveKey : ap-89a3a95c25567ec56ed873fa9d447b58bbf748efdbcf92e5d1d63540a9b0bc44
+12:38:18.343 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContractTest - txLog=[Invalid parameters, Invalid parameters, Invalid parameters, Invalid amount, Invalid amount, Invalid parameters, Transfer 0 from c91e9d46dd4b7584f0b6348ee18277c10fd7cb94 to c91e9d46dd4b7584f0b6348ee18277c10fd7cb94 fee 10000000000000000, Transfer fee c91e9d46dd4b7584f0b6348ee18277c10fd7cb94 from 10000000000000000 success, Approve spender to 100 from c91e9d46dd4b7584f0b6348ee18277c10fd7cb94, Low transaction fee, Low transaction fee, Transfer 0 from c91e9d46dd4b7584f0b6348ee18277c10fd7cb94 to c91e9d46dd4b7584f0b6348ee18277c10fd7cb94 fee 10000000000000000, Transfer fee c91e9d46dd4b7584f0b6348ee18277c10fd7cb94 from 10000000000000000 success, Approve spender to 100 from c91e9d46dd4b7584f0b6348ee18277c10fd7cb94]
+12:38:18.343 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : c91e9d46dd4b7584f0b6348ee18277c10fd7cb94Balance of Frontier : 1000000000000000000000000000
+12:38:18.343 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : 1a0cdead3d1d1dbeef848fef9053b4f0ae06db9eBalance of Frontier : 1000000000000000000000000000
+12:38:18.343 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : 5e032243d507c743b061ef021e2ec7fcc6d3ab89Balance of Frontier : 10000000000000000000
+12:38:18.343 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : cee3d4755e47055b530deeba062c5bd0c17eb00fBalance of Frontier : 998000000000000000000000000000
+12:38:18.343 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : c3cf7a283a4415ce3c41f5374934612389334780Balance of Frontier : 10000000000000000000000000000000000000000
+12:38:18.343 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : 4d01e237570022440aa126ca0b63065d7f5fd589Balance of Frontier : 10000000000000000000000000000000000000000
+12:38:18.344 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Invalid parameters : null
+12:38:18.344 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Invalid parameters : null
+12:38:18.344 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Invalid parameters : Illegal embedded sign character
+12:38:18.344 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Balance empty
+12:38:18.344 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Balance empty
+12:38:18.344 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Invalid parameters : For input string: "amount!"
+12:38:18.344 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Balance empty
+12:38:18.344 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Balance empty
+12:38:18.344 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Balance empty
+12:38:18.344 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContractTest - txLog=[Invalid parameters, Invalid parameters, Invalid parameters, Balance empty, Balance empty, Invalid parameters, Balance empty, Balance empty, Balance empty]
+12:38:18.345 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : c91e9d46dd4b7584f0b6348ee18277c10fd7cb94Balance of Frontier : 1000000000000000000000000000
+12:38:18.345 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : 1a0cdead3d1d1dbeef848fef9053b4f0ae06db9eBalance of Frontier : 1000000000000000000000000000
+12:38:18.345 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : 5e032243d507c743b061ef021e2ec7fcc6d3ab89Balance of Frontier : 10000000000000000000
+12:38:18.345 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : cee3d4755e47055b530deeba062c5bd0c17eb00fBalance of Frontier : 998000000000000000000000000000
+12:38:18.345 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : c3cf7a283a4415ce3c41f5374934612389334780Balance of Frontier : 10000000000000000000000000000000000000000
+12:38:18.345 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : 4d01e237570022440aa126ca0b63065d7f5fd589Balance of Frontier : 10000000000000000000000000000000000000000
+12:38:18.345 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContractTest - txLog=[{"to":"c91e9d46dd4b7584f0b6348ee18277c10fd7cb94","balance":"1000000000000000000000000000"}, {"to":"1a0cdead3d1d1dbeef848fef9053b4f0ae06db9e","balance":"1000000000000000000000000000"}, {"to":"5e032243d507c743b061ef021e2ec7fcc6d3ab89","balance":"10000000000000000000"}, {"to":"cee3d4755e47055b530deeba062c5bd0c17eb00f","balance":"998000000000000000000000000000"}, {"to":"c3cf7a283a4415ce3c41f5374934612389334780","balance":"10000000000000000000000000000000000000000"}, {"to":"4d01e237570022440aa126ca0b63065d7f5fd589","balance":"10000000000000000000000000000000000000000"}, Initialization completed successfully. Total Supply is 20000000001000000000010000000000000000000]
+12:38:18.346 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : c91e9d46dd4b7584f0b6348ee18277c10fd7cb94Balance of Frontier : 1000000000000000000000000000
+12:38:18.346 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : 1a0cdead3d1d1dbeef848fef9053b4f0ae06db9eBalance of Frontier : 1000000000000000000000000000
+12:38:18.346 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : 5e032243d507c743b061ef021e2ec7fcc6d3ab89Balance of Frontier : 10000000000000000000
+12:38:18.346 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : cee3d4755e47055b530deeba062c5bd0c17eb00fBalance of Frontier : 998000000000000000000000000000
+12:38:18.346 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : c3cf7a283a4415ce3c41f5374934612389334780Balance of Frontier : 10000000000000000000000000000000000000000
+12:38:18.346 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : 4d01e237570022440aa126ca0b63065d7f5fd589Balance of Frontier : 10000000000000000000000000000000000000000
+12:38:18.346 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContractTest - txLog=[{"to":"c91e9d46dd4b7584f0b6348ee18277c10fd7cb94","balance":"1000000000000000000000000000"}, {"to":"1a0cdead3d1d1dbeef848fef9053b4f0ae06db9e","balance":"1000000000000000000000000000"}, {"to":"5e032243d507c743b061ef021e2ec7fcc6d3ab89","balance":"10000000000000000000"}, {"to":"cee3d4755e47055b530deeba062c5bd0c17eb00f","balance":"998000000000000000000000000000"}, {"to":"c3cf7a283a4415ce3c41f5374934612389334780","balance":"10000000000000000000000000000000000000000"}, {"to":"4d01e237570022440aa126ca0b63065d7f5fd589","balance":"10000000000000000000000000000000000000000"}, Initialization completed successfully. Total Supply is 20000000001000000000010000000000000000000, null, JsonNull, Propose not exists]
+12:38:18.347 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : c91e9d46dd4b7584f0b6348ee18277c10fd7cb94Balance of Frontier : 1000000000000000000000000000
+12:38:18.347 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : 1a0cdead3d1d1dbeef848fef9053b4f0ae06db9eBalance of Frontier : 1000000000000000000000000000
+12:38:18.348 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : 5e032243d507c743b061ef021e2ec7fcc6d3ab89Balance of Frontier : 10000000000000000000
+12:38:18.348 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : cee3d4755e47055b530deeba062c5bd0c17eb00fBalance of Frontier : 998000000000000000000000000000
+12:38:18.348 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : c3cf7a283a4415ce3c41f5374934612389334780Balance of Frontier : 10000000000000000000000000000000000000000
+12:38:18.348 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : 4d01e237570022440aa126ca0b63065d7f5fd589Balance of Frontier : 10000000000000000000000000000000000000000
+12:38:18.348 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContractTest - c91e9d46dd4b7584f0b6348ee18277c10fd7cb94:1000000000000000000000000000
+12:38:18.348 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContractTest - 1a0cdead3d1d1dbeef848fef9053b4f0ae06db9e:1000000000000000000000000000
+12:38:18.348 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - [Transferred] Transfer 1000000000000000000 from c91e9d46dd4b7584f0b6348ee18277c10fd7cb94 to 1a0cdead3d1d1dbeef848fef9053b4f0ae06db9e
+12:38:18.348 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - [Transferred] Transfer 999999998990000000000000001 from c91e9d46dd4b7584f0b6348ee18277c10fd7cb94 to 1a0cdead3d1d1dbeef848fef9053b4f0ae06db9e
+12:38:18.348 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - [Transferred] Transfer 999999998980000000000000000 from c91e9d46dd4b7584f0b6348ee18277c10fd7cb94 to 1a0cdead3d1d1dbeef848fef9053b4f0ae06db9e
+12:38:18.349 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContractTest - txLog=[Transfer 1000000000000000000 from c91e9d46dd4b7584f0b6348ee18277c10fd7cb94 to 1a0cdead3d1d1dbeef848fef9053b4f0ae06db9e fee 10000000000000000, Insufficient funds, Transfer failed, Transfer 999999998980000000000000000 from c91e9d46dd4b7584f0b6348ee18277c10fd7cb94 to 1a0cdead3d1d1dbeef848fef9053b4f0ae06db9e fee 10000000000000000]
+12:38:18.349 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : c91e9d46dd4b7584f0b6348ee18277c10fd7cb94Balance of Frontier : 1000000000000000000000000000
+12:38:18.349 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : 1a0cdead3d1d1dbeef848fef9053b4f0ae06db9eBalance of Frontier : 1000000000000000000000000000
+12:38:18.349 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : 5e032243d507c743b061ef021e2ec7fcc6d3ab89Balance of Frontier : 10000000000000000000
+12:38:18.349 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : cee3d4755e47055b530deeba062c5bd0c17eb00fBalance of Frontier : 998000000000000000000000000000
+12:38:18.349 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : c3cf7a283a4415ce3c41f5374934612389334780Balance of Frontier : 10000000000000000000000000000000000000000
+12:38:18.349 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - Address of Frontier : 4d01e237570022440aa126ca0b63065d7f5fd589Balance of Frontier : 10000000000000000000000000000000000000000
+12:38:18.350 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - [Approved] Approve c91e9d46dd4b7584f0b6348ee18277c10fd7cb94 to 1000000000000000000000000010 from c91e9d46dd4b7584f0b6348ee18277c10fd7cb94. ApproveKey : ap-88c4f2f0542c5e7f9bf2158bc3c0ffe19a344d0dccee4866518f23336600df61
+12:38:18.350 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContract - [Approved] Approve c91e9d46dd4b7584f0b6348ee18277c10fd7cb94 to 10 from c91e9d46dd4b7584f0b6348ee18277c10fd7cb94. ApproveKey : ap-88c4f2f0542c5e7f9bf2158bc3c0ffe19a344d0dccee4866518f23336600df61
+12:38:18.350 [Test worker] DEBUG io.yggdrash.contract.yeed.YeedContractTest - txLog=[Transfer 0 from c91e9d46dd4b7584f0b6348ee18277c10fd7cb94 to c91e9d46dd4b7584f0b6348ee18277c10fd7cb94 fee 10000000000000000, Transfer fee c91e9d46dd4b7584f0b6348ee18277c10fd7cb94 from 10000000000000000 success, Approve c91e9d46dd4b7584f0b6348ee18277c10fd7cb94 to 1000000000000000000000000010 from c91e9d46dd4b7584f0b6348ee18277c10fd7cb94, Transfer 0 from c91e9d46dd4b7584f0b6348ee18277c10fd7cb94 to c91e9d46dd4b7584f0b6348ee18277c10fd7cb94 fee 10000000000000000, Transfer fee c91e9d46dd4b7584f0b6348ee18277c10fd7cb94 from 10000000000000000 success, Approve c91e9d46dd4b7584f0b6348ee18277c10fd7cb94 to 10 from c91e9d46dd4b7584f0b6348ee18277c10fd7cb94]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
