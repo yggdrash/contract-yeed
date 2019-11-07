@@ -137,6 +137,5 @@ jar {
 }
 
 dependencies {
-    compile "io.yggdrash:contract-core:0.10.0-beta"
-    compile "io.yggdrash:yggdrash-common:0.10.0-beta"
+    compile "io.yggdrash:yggdrash-common:0.10.1-beta"
 }
